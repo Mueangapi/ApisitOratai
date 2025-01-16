@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apisit Oratai Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="moodeng.jpg" type="image/png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center p-6">
+        <div class="text-2xl font-bold">❤️‍🔥❤️‍🔥❤️‍🔥</div>
+        <div class="hidden md:flex gap-8">
+            <a href="#project" class="hover-accent">Projects</a>
+            <a href="#about" class="hover-accent">About</a>
+            <a href="#resume" class="hover-accent" >Resume</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-6 py-12 md:py-24 grid md:grid-cols-2 gap-14 items-center">
+        <div class="space-y-6">
+            <h1 class="text-5xl md:text-6xl font-bold">Hi, I'm Apisit Oratai</h1>
+            <p class="text-2xl accent-color">Data Scientist + Data Analyst + Business Analyst</p>
+            <p class="text-gray-400 max-w-lg">
+                I passionate about turning data into actionable insights and <span class="accent-color">revenue opportunities</span>. With experience in <span class="accent-color">Banking</span>, <span class="accent-color">AI</span>, and <span class="accent-color">Web App</span>, I can help create innovative solutions to keep your business competitive.
+            </p>
+            <div class="flex gap-4">
+                <button class="px-6 py-2 accent-bg text-black font-medium rounded hover:opacity-90" onclick="window.open('https://www.linkedin.com/in/apisit-oratai/','_blank')" >
+                    Connect with me
+                </button>
+                <a href="#project">
+                    <button class="px-6 py-2 border accent-border accent-color rounded hover:bg-[#00E8F8]/10">
+                        Learn more!
+                    </button>
+                </a>
+            </div>
+            <div class="flex gap-4">
+                <a href="https://github.com/Mueangapi" class="text-gray-400 hover-accent" target="_blank">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="mailto:apisit.ort@gmail.com" class="text-gray-400 hover-accent" title="apisit.ort@gmail.com">
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="relative w-full h-[300px] max-w-[500px]">
+            <video 
+                src="present.mp4" 
+                alt="Profile Video" 
+                class="absolute inset-0 w-full h-full object-cover rounded-lg"
+                autoplay 
+                loop 
+                muted 
+                playsinline
+            ></video>
+            <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#00E8F8]/20 rounded-lg"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project" class="pt-24 py-8 bg-[#0A192F]/50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-16 text-center">
+                My <span class="accent-color">Projects</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Project 1 -->
+                <div class="space-y-6">
+                    <div class="relative w-full h-[300px]">
+                        <iframe 
+                            src="https://drive.google.com/file/d/1H_UqQq8sJ51wM-JIMMHIdapkGCLi7wrP/preview" 
+                            class="absolute inset-0 w-full h-full object-cover rounded-lg"
+                            allow="autoplay"
+                            frameborder="0">
+                        </iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Full Stack Next.js</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">TailwindCSS</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Postgres</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Microsoft Azure</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Python</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">EGP-Assistant</h3>
+                        <p class="text-gray-400">
+                            This project aims to tackle the problem of goverment procurement related customer or as known as <span class="accent-color">e-GP</span> segment of Banking. the problem is they spend a lot amout of time to find/make decision on which project to bid due to its unfriendly UX/UI procurement website.
+                        </p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="space-y-6">
+                    <div class="relative w-full h-[300px]">
+                        <iframe 
+                            src="https://drive.google.com/file/d/1xzCDgaypy0JglhauAWR2IdwBYNhQgnFX/preview" 
+                            class="absolute inset-0 w-full h-full object-cover rounded-lg"
+                            controls
+                        ></iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Python</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Agentic AI</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Fast API</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Render(deploy service)</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Document Automation</h3>
+                        <p class="text-gray-400">
+                            The project aims to disrupt the loan officer's repetitive tasks mostly documents writing, checking and summitting. By using <span class="accent-color">GenAI</span> to build<span class="accent-color"> Agent</span> to automate the process. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- More Projects Section (Initially Hidden) -->
+    <section id="more-projects" class="py-20 bg-[#0A192F]/50 hidden">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-20">
+                <!-- Project 3 -->
+                <div class="space-y-6">
+                    <div class="relative w-full h-[300px]">
+                        <iframe 
+                            src="https://drive.google.com/file/d/1hGHH2fCwl6p8OlOvU2s83-TOKB6cfwsI/preview" 
+                            class="absolute inset-0 w-full h-full object-cover rounded-lg"
+                            allow="autoplay"
+                            autoplay="true"
+                            muted="true"
+                            loop="true"
+                            controls
+                            playbackRate="1.5"
+                        ></iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Next.js</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Vercel(deploy frontend)</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Render(deploy service)</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Python</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">GenAI Opportunities</h3>
+                        <p class="text-gray-400">
+                            This experimental project aims to explore the potential of AI in generating business opportunities. By creating a chatbot that can interact with users and provide <span class="accent-color">crucial insight</span>. in the video you will see perform Q&A, fraud detection, and <span class="accent-color">local economy analysis</span> features.
+                        </p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="space-y-6">
+                    <div class="relative w-full h-[300px]">
+                        <iframe src="Where_are_u_my_Cust2.html" width="100%" height="100%" class="rounded-lg"></iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Data Science</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Spatial analysis</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Supply chain analysis</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Python</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Supply chain analytic</h3>
+                        <p class="text-gray-400">
+                            This project aims to help the company to find the best location for their new warehouse, new potential area. The project uses <span class="accent-color">Python</span> to perform <span class="accent-color">spatial analysis</span> and <span class="accent-color">supply chain analysis</span>.
+                        </p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="space-y-6">
+                    <div class="relative w-full h-[300px]">
+                        <iframe src="StocksRelation4.html" width="100%" height="100%" class="rounded-lg"></iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Data Science</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">liquidity analysis</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">NetworkX</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Python</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Liquidity Analysis</h3>
+                        <p class="text-gray-400">
+                            Have you ever questioned if <span class="accent-color">one of your customers defaults</span>, how it will affect <span class="accent-color">another customer of your bank</span>? If the <span class="accent-color">loan default</span> becomes chaos, how would you manage it? This project aims to analyze the <span class="accent-color">liquidity of each customer</span> and their <span class="accent-color">trading partner</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="space-y-6">
+                    <div class="relative w-full h-[300px]">
+                        <iframe src="thailandmicro.html" width="100%" height="100%" class="rounded-lg"></iframe>
+                    </div>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Data Science</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Spatial analysis</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Transaction analysis</span>
+                        <span class="px-3 py-1 bg-[#00E8F8]/20 text-[#00E8F8] rounded-full text-sm">Python</span>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2">Local/Global Economy Analysis</h3>
+                        <p class="text-gray-400">
+                            Do you want to know which are <span class="accent-color">outperforming area</span> in Thailand, which area has the most potential to invest in? where should policymakers focus? This project aims to analyze the <span class="accent-color">local economy</span> and <span class="accent-color">macro economy</span> of Thailand. You will be amazed by the <span class="accent-color">insight</span> you will get.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- See More/Less Button -->
+    <div class="container mx-auto px-6 text-center py-4">
+        <button id="toggleProjects" class="group px-8 py-3 accent-bg text-black text-base font-normal rounded-full transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#00E8F8]">
+          <span class="flex items-center justify-center">
+            <span id="buttonText">See More</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 w-5 h-5 transition-transform duration-300 ease-in-out transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </span>
+        </button>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-[#0A192F]/50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16">
+                About <span class="accent-color">Me</span>
+            </h2>
+            <div class="flex justify-center mb-12">
+                <div class="relative w-48 h-48">
+                    <img 
+                        src="profile.jpg" 
+                        alt="About" 
+                        class="rounded-full w-full h-full object-cover"
+                        style="object-position: 17% ;"
+                    >
+                    <div class="absolute inset-0 border-2 accent-border rounded-full profile-border"></div>
+                </div>
+            </div>
+            <h3 class="text-2xl font-bold mb-6 accent-color">
+                Full Stack Data Science (AI-Automation)
+            </h3>
+            <p class="max-w-2xl mx-auto text-gray-400 mb-8">
+                If your bank is looking for a person who love developing <span class="accent-color">Data Project, Data Product and Innovation Product</span>. I am the one who can help you. I have experience in <span class="accent-color">Banking</span>, <span class="accent-color">AI</span>, and <span class="accent-color">Web App</span>. I can help create innovative solutions to enhance your level of product and services.  
+            </p>
+            <button id="resume" class="px-6 py-2 accent-bg text-black font-medium rounded hover:opacity-90" 
+                 onclick="window.open('Apisit_Oratai-Python,SQL,TOEIC770 (DS).pdf', '_blank')">
+            Resume!
+        </button>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section>    
+        <footer class="py-2 text-center text-gray-400">
+            <p>Contact: 092-415-4195 Email: apisit.ort@gmail.com</p>
+        </footer>
+
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('toggleProjects');
+            const moreProjectsSection = document.getElementById('more-projects');
+            const buttonText = document.getElementById('buttonText');
+            const arrowIcon = toggleButton.querySelector('svg');
+
+            toggleButton.addEventListener('click', function() {
+                moreProjectsSection.classList.toggle('hidden');
+                if (moreProjectsSection.classList.contains('hidden')) {
+                    buttonText.textContent = 'See More';
+                    arrowIcon.classList.remove('rotate-180');
+                } else {
+                    buttonText.textContent = 'See Less';
+                    arrowIcon.classList.add('rotate-180');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
+

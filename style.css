@@ -1,0 +1,32 @@
+/* Custom styles */
+body {
+    background-color: #0A192F;
+    color: white;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+.accent-color {
+    color: #00E8F8;
+}
+
+.accent-border {
+    border-color: #00E8F8;
+}
+
+.accent-bg {
+    background-color: #00E8F8;
+}
+
+.hover-accent:hover {
+    color: #00E8F8;
+}
+
+.profile-border {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
