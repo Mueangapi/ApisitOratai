@@ -1,32 +1,73 @@
-/* Custom styles */
 body {
     background-color: #0A192F;
     color: white;
     font-family: system-ui, -apple-system, sans-serif;
-}
+  }
 
-.accent-color {
+  .accent-color {
     color: #00E8F8;
-}
+  }
 
-.accent-border {
+  .accent-border {
     border-color: #00E8F8;
-}
+  }
 
-.accent-bg {
+  .accent-bg {
     background-color: #00E8F8;
-}
+  }
 
-.hover-accent:hover {
+  .hover-accent:hover {
     color: #00E8F8;
-}
+  }
 
-.profile-border {
+  .profile-border {
     animation: pulse 2s infinite;
-}
+  }
 
-@keyframes pulse {
+  @keyframes pulse {
     0% { transform: scale(1); opacity: 1; }
     50% { transform: scale(1.05); opacity: 0.7; }
     100% { transform: scale(1); opacity: 1; }
-}
+  }
+
+  /* Skills Section Styles */
+  .hover-box {
+    transition: all 0.3s ease;
+  }
+
+  .hover-box:hover {
+    background-color: rgba(0, 232, 248, 0.05);
+    box-shadow: 0 0 15px rgba(0, 232, 248, 0.2);
+  }
+
+  .hover-box-inner {
+    transition: all 0.3s ease;
+  }
+
+  .hover-box-inner:hover {
+    border-color: #00E8F8;
+    background-color: rgba(0, 232, 248, 0.05);
+  }
+
+  .tool-icon-container {
+    transition: all 0.3s ease;
+  }
+
+  .tool-item:hover .tool-icon-container {
+    border-color: #00E8F8;
+    transform: translateY(-5px);
+  }
+
+  .tool-item:hover .tool-icon {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+  .tool-item span {
+    transition: all 0.3s ease;
+  }
+
+  .tool-item:hover span {
+    font-weight: 500;
+    color: #00E8F8;
+  }
